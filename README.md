@@ -18,7 +18,7 @@ After downloaded this repo and unzip it:
 1) Go to the command line and navigate until the "Web" folder, in the root of this folder execute these commands:
 
 ```diff 
-npm install 
++npm install 
 ```
 - To install the Node packages
   
