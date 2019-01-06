@@ -17,9 +17,12 @@ After downloaded this repo and unzip it:
 ### Web solution installation
 1) Go to the command line and navigate until the "Web" folder, in the root of this folder execute these commands:
 
-```diff 
-+npm install 
+```diff
++ this will be highlighted in green
+- this will be highlighted in red
 ```
+
+### npm install 
 - To install the Node packages
   
 #### ng serve
