@@ -4,7 +4,7 @@ Adding security to Angular 7 application using JSON Web Tokens, claims, and the 
 
 ## Installation
 This repo has 3 folders:
-- __Databases__: that has 2 scripts, one to create the DB and the second to populate the tables
+- __Databases__: that has 2 scripts, one to create the DB and the second one to populate the tables
 - __Web__: is the web project made in angular 7 
 - __NetCoreWebApi__: is the .Net Core Web API made with C# and .Net Core 2.2
 
