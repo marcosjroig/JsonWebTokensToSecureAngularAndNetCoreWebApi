@@ -8,7 +8,7 @@ This repo has 3 folders:
 - Web: is the web project made in angular 7 
 - NetCoreWebApi: is the .Net Core Web API made with C# and .Net Core 2.2
 
-After downloaded this repo and unzip it:
+After downloaded this repo and unzip it, please follow the next intructions to configure everything.
 
 ### Database installation
 1) Execute in order the scripts of the "Database" folder
@@ -26,4 +26,6 @@ After downloaded this repo and unzip it:
 ### Web Api
 1) Open the solution of the folder "NetCoreWebApi" with VS2017 or newer 
 2) Change the property "PtcDbContext" of the file "appsettings.json" to set your SQL Server name and your credentials as well, in my case I am using Windows authentication
-3) Compile the solution and press F5 to run the API
+3) Ensure the file launchSettings.json is pointing to this url http://localhost:5000/ as the Web project is looking at this URL to access to the DB.
+4) Compile the solution and press F5 to run the API
+5) Do not worry if you see an empty page when you run the API
