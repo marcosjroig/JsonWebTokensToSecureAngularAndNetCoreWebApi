@@ -18,3 +18,8 @@ After downloaded this repo and unzip it:
 1) Go to the command line and navigate until the "Web" folder, in the root of this folder execute these commands:
 npm install
 ng serve
+
+### Web Api
+1) Open the solution of the folder "NetCoreWebApi" with VS2017 or newer 
+2) Change the property "PtcDbContext" of the file "appsettings.json" to set your SQL Server name and your credentials as well, in my case I am using Windows authentication
+3) Compile the solution and press F5 to run the API
