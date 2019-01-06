@@ -16,8 +16,11 @@ After downloaded this repo and unzip it:
 
 ### Web solution installation
 1) Go to the command line and navigate until the "Web" folder, in the root of this folder execute these commands:
+
 npm install
+-- To install the Node packages
 ng serve
+-- To run the web server
 
 ### Web Api
 1) Open the solution of the folder "NetCoreWebApi" with VS2017 or newer 
